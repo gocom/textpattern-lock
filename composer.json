@@ -1,6 +1,6 @@
 {
 	"name": "textpattern/lock",
-	"description": "Metapackage for Textpattern CMS",
+	"description": "Lock your Textpattern CMS version or define package dependencies",
 	"keywords": ["textpattern", "core", "meta"],
 	"homepage": "http://textpattern.com",
 	"license": "GPL-2.0",
