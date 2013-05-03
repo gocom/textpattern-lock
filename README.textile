@@ -12,7 +12,7 @@ p. Where the @4.5.4@ is the Textpattern version you have.
 
 h2. Defining required Textpattern version as a dependency in your packages
 
-p. Textpattern plugin and theme developers can define the compatible and required Textpattern versions using the @textpattern/lock@ package. You can set requirements using the "require":http://getcomposer.org/doc/04-schema.md#require property, or exclude versions using "conflict":http://getcomposer.org/doc/04-schema.md#conflict.
+p. Textpattern plugin and theme developers can define the compatible and required Textpattern versions using the @textpattern/lock@ package. You can set requirements using the "require":http://getcomposer.org/doc/04-schema.md#require property, or exclude versions using the "conflict":http://getcomposer.org/doc/04-schema.md#conflict.
 
 bc. {
     "require": {
@@ -20,4 +20,4 @@ bc. {
     }
 }
 
-p. The above, for example, would set require Textpattern version 4.5.0 or newer. The plugin or theme will not be installed if the user's Textpattern version doesn't meet the requirements.
+p. The above, for example, would set require Textpattern version 4.5.0 or newer. The plugin or theme will not be installed if the user's Textpattern version doesn't meet the requirements. See Composer "schema":http://getcomposer.org/doc/04-schema.md and "basic usage":http://getcomposer.org/doc/01-basic-usage.md for more information about defining requirements.
