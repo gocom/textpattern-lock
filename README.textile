@@ -1,0 +1,23 @@
+h1. textpattern/lock
+
+p. "Composer":http://getcomposer.org meta package for "Textpattern CMS":http://textpattern.com. This package can be used to lock the installed Textpattern version and handle Textpattern version dependencies in packages. This package makes sure your Textpattern installation and packages are compatible and can work together, making the painless dependency management reality.
+
+h2. Locking your Textpattern installation version
+
+p. When you start using Composer to manage Textpattern packages, plugins and themes, you should lock in your Textpattern version. This makes sure the packages you install are compatible with the Textpattern version you have. You can lock in your Textpattern version using Composer's require command.
+
+bc. $ composer.phar require "textpattern/lock 4.5.4"
+
+p. Where the @4.5.4@ is the Textpattern version you have.
+
+h2. Defining required Textpattern version as a dependency in your packages
+
+p. Textpattern plugin and theme developers can define the compatible and required Textpattern versions using the @textpattern/lock@ package. You can set requirements using the "require":http://getcomposer.org/doc/04-schema.md#require property, or exclude versions using "conflict":http://getcomposer.org/doc/04-schema.md#conflict.
+
+bc. {
+    "require": {
+        "textpattern/lock" : ">=4.5.0"
+    }
+}
+
+p. The above, for example, would set require Textpattern version 4.5.0 or newer. The plugin or theme will not be installed if the user's Textpattern version doesn't meet the requirements.
