@@ -17,6 +17,7 @@ Where the `4.7.1` is the Textpattern version you have.
 Textpattern plugin and theme developers can define the compatible and required Textpattern versions using the `textpattern/lock` package. You can set requirements using the [require](https://getcomposer.org/doc/04-schema.md#require) property, or exclude versions using the [conflict](https://getcomposer.org/doc/04-schema.md#conflict).
 
 ```json
+{
   "require": {
     "textpattern/lock": ">=4.7.0"
   }
