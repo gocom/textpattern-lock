@@ -1,16 +1,16 @@
 {
-    "name": "textpattern/lock",
-    "description": "Lock your Textpattern CMS version or define package dependencies",
-    "keywords": ["textpattern", "core", "meta"],
-    "homepage": "http://textpattern.com",
-    "license": "GPL-2.0",
-    "support": {
-        "issues": "https://github.com/gocom/textpattern-lock/issues",
-        "source": "https://github.com/gocom/textpattern-lock"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.x-dev"
-        }
+  "name": "textpattern/lock",
+  "description": "Lock your Textpattern CMS version or define package dependencies",
+  "keywords": ["textpattern", "core", "meta"],
+  "homepage": "https://textpattern.com",
+  "license": "GPL-2.0",
+  "support": {
+    "issues": "https://github.com/gocom/textpattern-lock/issues",
+    "source": "https://github.com/gocom/textpattern-lock"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "4.x-dev"
     }
+  }
 }
